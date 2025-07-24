@@ -1,3 +1,11 @@
+cbpp-welcome (13.0) unstable; urgency=low
+
+  * cups-pdf -> printer-driver-cups-pdf
+  * new jdk version
+  * bzr-tools -> brz
+
+ -- Ben Young <computermouth@crunchbangplusplus.org>  Wed, 23 Jul 2025 19:55:16 -0800
+
 cbpp-welcome (12.0) unstable; urgency=low
 
   * Update openjdk version

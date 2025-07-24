@@ -21,7 +21,7 @@ Architecture: all
 Depends: 
  ${misc:Depends},
  cups, 
- cups-pdf,
+ printer-driver-cups-pdf,
  system-config-printer,
  printer-driver-hpijs
 Description: CrunchBangplusplus printer support meta package
@@ -29,7 +29,7 @@ Description: CrunchBangplusplus printer support meta package
 
 Package: cbpp-meta-java
 Architecture: all
-Depends: ${misc:Depends}, openjdk-17-jre
+Depends: ${misc:Depends}, openjdk-25-jre
 Description: CrunchBangplusplus java meta package
  Installs various java packages.
 
@@ -52,7 +52,7 @@ Depends:
  subversion,
  subversion-tools,
  bzr,
- bzrtools,
+ brz,
  cvs
 Description: CrunchBang version control meta package
  Installs various version control tools.
