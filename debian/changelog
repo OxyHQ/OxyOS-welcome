@@ -1,102 +1,102 @@
 oxyos-welcome (14.0) unstable; urgency=low
 
-  * Rebrand from CrunchBangPlusPlus to OxyOS
-  * Rename all cbpp- packages to oxyos- packages
+  * Rebrand to OxyOS
+  * Rename all packages to oxyos- prefix
   * Update URLs to https://os.oxy.so/
-  * Rename cbpp-welcome to oxyos-welcome
-  * Rename lib-cbpp-welcome to lib-oxyos-welcome
-  * Update config directory from crunchbangplusplus to oxyos
+  * Rename welcome package to oxyos-welcome
+  * Rename library to lib-oxyos-welcome
+  * Update config directory to oxyos
 
  -- OxyHQ <contact@oxy.so>  Mon, 10 Feb 2026 00:00:00 +0000
 
-cbpp-welcome (13.0) unstable; urgency=low
+oxyos-welcome (13.0) unstable; urgency=low
 
   * cups-pdf -> printer-driver-cups-pdf
   * new jdk version
   * bzr-tools -> brz
 
- -- Ben Young <computermouth@crunchbangplusplus.org>  Wed, 23 Jul 2025 19:55:16 -0800
+ -- Ben Young <computermouth@users.noreply.github.com>  Wed, 23 Jul 2025 19:55:16 -0800
 
-cbpp-welcome (12.0) unstable; urgency=low
+oxyos-welcome (12.0) unstable; urgency=low
 
   * Update openjdk version
   * Remove dpatch
   * Update pbuilder conf
 
- -- Ben Young <computermouth@crunchbangplusplus.org>  Sun, 14 May 2023 16:57:16 -0800
+ -- Ben Young <computermouth@users.noreply.github.com>  Sun, 14 May 2023 16:57:16 -0800
 
-cbpp-welcome (11.0) unstable; urgency=low
+oxyos-welcome (11.0) unstable; urgency=low
 
   * version bump
 
- -- Ben Young <computermouth@crunchbangplusplus.org>  Thu, 22 Apr 2021 13:17:16 -0800
+ -- Ben Young <computermouth@users.noreply.github.com>  Thu, 22 Apr 2021 13:17:16 -0800
 
-cbpp-welcome (10.0) unstable; urgency=low
+oxyos-welcome (10.0) unstable; urgency=low
 
   * phpmyadmin isn't in stable buster at build time
   * updated libreoffice dep name
   * mysql-server has been replaced by a mariadb transitional package
 
- -- Ben Young <computermouth@crunchbangplusplus.org>  Sun, 12 May 2019 13:57:12 -0800
+ -- Ben Young <computermouth@users.noreply.github.com>  Sun, 12 May 2019 13:57:12 -0800
 
-cbpp-welcome (9.0) unstable; urgency=low
+oxyos-welcome (9.0) unstable; urgency=low
 
   * Needed more 9's
   * Whoops, pbuilder env was set to wheezy, surprised no one noticed
 
- -- Ben Young <computermouth@crunchbangplusplus.org>  Mon, 27 Feb 2017 23:23:12 -0800
+ -- Ben Young <computermouth@users.noreply.github.com>  Mon, 27 Feb 2017 23:23:12 -0800
 
-cbpp-welcome (1.0) unstable; urgency=low
+oxyos-welcome (1.0) unstable; urgency=low
 
-  * Repackaged from cb-welcome.
+  * Repackaged from original welcome script.
   * Merged AlexDaniel's newer version for better code refactoring and locale support.
-  * Moved original repository references to CBPP packages server.
-  * Changed metapackage installations to new cbpp- metapackages.
+  * Moved original repository references to OxyOS packages server.
+  * Changed metapackage installations to new oxyos- metapackages.
   * Changed jdk6 packages to jdk7.
 
- -- Ben Young <computermouth@crunchbangplusplus.org>  Fri, 20 Feb 2015 16:46:12 -0600
+ -- Ben Young <computermouth@users.noreply.github.com>  Fri, 20 Feb 2015 16:46:12 -0600
 
-cb-welcome (0.06) unstable; urgency=low
+oxyos-welcome (0.06) unstable; urgency=low
 
   * Switch all hardcoded deps to new metapackages.
   * Update standards version to 3.9.4.
 
  -- Philip Newborough <corenominal@corenominal.org>  Sun, 13 Jan 2013 10:43:39 +0000
 
-cb-welcome (0.05) unstable; urgency=low
+oxyos-welcome (0.05) unstable; urgency=low
 
   [ Jason Liquorish ]
   * Fixed issue #3 - improve user prompts.
 
  -- Philip Newborough <corenominal@corenominal.org>  Sun, 06 Jan 2013 19:00:07 +0000
 
-cb-welcome (0.04) unstable; urgency=low
+oxyos-welcome (0.04) unstable; urgency=low
 
-  * Add cb-pipemenus to depends.
+  * Add oxyos-pipemenus to depends.
   Giorgi Tavkelishvili:
   * Modified 'check-internet-connection' script to use the reliable
     wget method instead of unreliable ping.
-  * Modified 'cb-welcome' script to use 'connectiontest' function
-    from /usr/bin/cb-include.cfg.
+  * Modified 'oxyos-welcome' script to use 'connectiontest' function
+    from /usr/bin/oxyos-include.cfg.
   * Removed obsolete 'check-internet-connection' script.
 
  -- Philip Newborough <corenominal@corenominal.org>  Wed, 25 Jul 2012 10:57:14 +0100
 
-cb-welcome (0.03) unstable; urgency=low
+oxyos-welcome (0.03) unstable; urgency=low
 
   * devel-install-version-control-tools:
     - add git-gui git-svn git-cvs git-email thunar-vcs-plugin
 
  -- Philip Newborough <corenominal@corenominal.org>  Fri, 20 Apr 2012 09:30:51 +0100
 
-cb-welcome (0.02) unstable; urgency=low
+oxyos-welcome (0.02) unstable; urgency=low
 
   * Only run if member of sudo group.
   * devel-install-packaging-tools: s/diff/diffutils/
 
  -- Philip Newborough <corenominal@corenominal.org>  Mon, 16 Apr 2012 11:28:48 +0100
 
-cb-welcome (0.01) unstable; urgency=low
+oxyos-welcome (0.01) unstable; urgency=low
 
   * Initial release.
 
