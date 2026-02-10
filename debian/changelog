@@ -7,7 +7,7 @@ oxyos-welcome (14.0) unstable; urgency=low
   * Rename library to lib-oxyos-welcome
   * Update config directory to oxyos
 
- -- OxyHQ <contact@oxy.so>  Mon, 10 Feb 2026 00:00:00 +0000
+ -- OxyHQ <admin@oxy.so>  Mon, 10 Feb 2026 00:00:00 +0000
 
 oxyos-welcome (13.0) unstable; urgency=low
 
