@@ -1,10 +1,10 @@
 #!/bin/bash
 
-FILE_PO='cbpp-welcome.po'
+FILE_PO='oxyos-welcome.po'
 
-bash --dump-po-strings ../cbpp-welcome > "$FILE_PO"
+bash --dump-po-strings ../oxyos-welcome > "$FILE_PO"
 
-for curFile in ../lib-cbpp-welcome/*; do
+for curFile in ../lib-oxyos-welcome/*; do
     bash --dump-po-strings "$curFile" >> "$FILE_PO"
 done
 

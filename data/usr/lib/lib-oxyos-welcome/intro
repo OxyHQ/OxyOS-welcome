@@ -1,0 +1,21 @@
+clear
+header
+say \
+'    ___           ___  ____
+   / _ \ __  __  / _ \/ ___|
+  | | | |\ \/ / | | | \___ \
+  | |_| | >  <  | |_| |___) |
+   \___/ /_/\_\  \___/|____/
+
+'$"Welcome to OxyOS! :)
+
+This is an optional post-installation script, designed to help you configure your new Linux installation and get the most out of OxyOS.
+
+You will now be presented with a series of options. You will need your administrator (sudo) password, so please have it ready.
+
+You will also need a working internet connection, so if you have not done so already, please configure your internet connection.
+
+If you do not want to run this script now, you can run it at a later date by entering the command \"oxyos-welcome\" in your terminal."'
+'
+
+prompt $"  Hit any key to continue, or \"q\" to quit..." Q && exit 0

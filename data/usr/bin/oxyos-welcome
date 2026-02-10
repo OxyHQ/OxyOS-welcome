@@ -1,19 +1,19 @@
 #!/bin/bash
 # Post installation script
-TEXTDOMAIN=cbpp-welcome
+TEXTDOMAIN=oxyos-welcome
 
 
-CB_WELCOME_LIBDIR='/usr/lib/lib-cbpp-welcome'
+CB_WELCOME_LIBDIR='/usr/lib/lib-oxyos-welcome'
 STEPS_BASIC=('apt-update' 'apt-dist-upgrade' 'install-printer-packages' 'install-java-packages' 'install-libreoffice' 'devel')
 STEPS_DEVEL=('devel-install-version-control-tools' 'devel-install-ssh-server' 'devel-install-lamp-stack' 'devel-install-packaging-tools')
 
 createFlag() {
-    mkdir -p "$HOME/.config/crunchbangplusplus"
-    touch "$HOME/.config/crunchbangplusplus/cbpp-welcome"
+    mkdir -p "$HOME/.config/oxyos"
+    touch "$HOME/.config/oxyos/oxyos-welcome"
 }
 
 runInTerminal() {
-    x-terminal-emulator -e 'cbpp-welcome'
+    x-terminal-emulator -e 'oxyos-welcome'
     exit 0
 }
 
@@ -61,7 +61,7 @@ installPage() {
 }
 
 if [[ $1 = '--firstrun' ]]; then # First run
-    [[ -d /live/overlay || -e $HOME/.config/crunchbangplusplus/cbpp-welcome || ! $(groups) =~ ( |^)sudo( |$) ]] && exit 1
+    [[ -d /live/overlay || -e $HOME/.config/oxyos/oxyos-welcome || ! $(groups) =~ ( |^)sudo( |$) ]] && exit 1
     runInTerminal
 elif [[ $1 = '--open' ]]; then # Open in terminal
     runInTerminal
@@ -74,8 +74,8 @@ if [[ ! $(groups) =~ ( |^)sudo( |$) ]]; then
     exit 1
 fi
 
-if ! . cbpp-include.cfg 2> /dev/null; then
-    echo $"Error: Failed to locate cbpp-include.cfg in PATH" >&2
+if ! . oxyos-include.cfg 2> /dev/null; then
+    echo $"Error: Failed to locate oxyos-include.cfg in PATH" >&2
     exit 1
 fi
 

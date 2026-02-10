@@ -1,3 +1,14 @@
+oxyos-welcome (14.0) unstable; urgency=low
+
+  * Rebrand from CrunchBangPlusPlus to OxyOS
+  * Rename all cbpp- packages to oxyos- packages
+  * Update URLs to https://os.oxy.so/
+  * Rename cbpp-welcome to oxyos-welcome
+  * Rename lib-cbpp-welcome to lib-oxyos-welcome
+  * Update config directory from crunchbangplusplus to oxyos
+
+ -- OxyHQ <contact@oxy.so>  Mon, 10 Feb 2026 00:00:00 +0000
+
 cbpp-welcome (13.0) unstable; urgency=low
 
   * cups-pdf -> printer-driver-cups-pdf

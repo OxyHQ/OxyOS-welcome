@@ -1,45 +1,45 @@
-Source: cbpp-welcome
+Source: oxyos-welcome
 Section: misc
 Priority: extra
-Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Maintainer: OxyHQ <contact@oxy.so>
 Build-Depends: debhelper-compat (= 13)
 Standards-Version: 3.9.5
-Homepage: https://crunchbangplusplus.org
+Homepage: https://os.oxy.so/
 
-Package: cbpp-welcome
+Package: oxyos-welcome
 Architecture: all
-Depends: 
- ${shlibs:Depends}, 
- ${misc:Depends}, 
- terminator, 
- cbpp-pipemenus
-Description: CrunchBangplusplus welcome script.
- Optional post installation script for CBPP.
-
-Package: cbpp-meta-printer-support
-Architecture: all
-Depends: 
+Depends:
+ ${shlibs:Depends},
  ${misc:Depends},
- cups, 
+ terminator,
+ oxyos-pipemenus
+Description: OxyOS welcome script.
+ Optional post installation script for OxyOS.
+
+Package: oxyos-meta-printer-support
+Architecture: all
+Depends:
+ ${misc:Depends},
+ cups,
  printer-driver-cups-pdf,
  system-config-printer,
  printer-driver-hpijs
-Description: CrunchBangplusplus printer support meta package
+Description: OxyOS printer support meta package
  Installs various printer packages to enable printer support.
 
-Package: cbpp-meta-java
+Package: oxyos-meta-java
 Architecture: all
 Depends: ${misc:Depends}, openjdk-25-jre
-Description: CrunchBangplusplus java meta package
+Description: OxyOS java meta package
  Installs various java packages.
 
-Package: cbpp-meta-libreoffice
+Package: oxyos-meta-libreoffice
 Architecture: all
 Depends: ${misc:Depends}, libreoffice, libreoffice-gtk3
-Description: CrunchBangplusplus libreoffice meta package
+Description: OxyOS libreoffice meta package
  Installs libreoffice and associated gtk theme.
 
-Package: cbpp-meta-vcs
+Package: oxyos-meta-vcs
 Architecture: all
 Depends:
  ${misc:Depends},
@@ -54,16 +54,16 @@ Depends:
  bzr,
  brz,
  cvs
-Description: CrunchBang version control meta package
+Description: OxyOS version control meta package
  Installs various version control tools.
 
-Package: cbpp-meta-ssh
+Package: oxyos-meta-ssh
 Architecture: all
 Depends: ${misc:Depends}, openssh-server, openssh-client
-Description: CrunchBangplusplus ssh meta package
+Description: OxyOS ssh meta package
  Installs ssh server and various ssh tools.
 
-Package: cbpp-meta-lamp
+Package: oxyos-meta-lamp
 Architecture: all
 Depends:
  ${misc:Depends},
@@ -78,10 +78,10 @@ Depends:
  curl,
  rsync,
  cronolog
-Description: CrunchBangplusplus lamp meta package
+Description: OxyOS lamp meta package
  Installs various web server tools.
 
-Package: cbpp-meta-packaging
+Package: oxyos-meta-packaging
 Architecture: all
 Depends:
  ${misc:Depends},
@@ -98,5 +98,5 @@ Depends:
  pbuilder,
  dput,
  quilt
-Description: CrunchBangplusplus packaging meta package
+Description: OxyOS packaging meta package
  Installs various Debian packaging tools.
