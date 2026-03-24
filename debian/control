@@ -99,4 +99,4 @@ Depends:
  dput,
  quilt
 Description: OxyOS packaging meta package
- Installs various Debian packaging tools.
+ Installs various .deb packaging tools.

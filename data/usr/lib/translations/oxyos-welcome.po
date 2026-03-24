@@ -77,10 +77,10 @@ msgstr ""
 msgid "Would you like to create the symlink?"
 msgstr ""
 #: lib-oxyos-welcome/devel-install-packaging-tools:1
-msgid "debian packaging tools"
+msgid "packaging tools"
 msgstr ""
 #: lib-oxyos-welcome/devel-install-packaging-tools:2
-msgid "Would you like to install a suite of packages used for developing Debian packages?"
+msgid "Would you like to install a suite of packages used for building .deb packages?"
 msgstr ""
 #: lib-oxyos-welcome/devel-install-packaging-tools:3
 msgid "Create pbuilder environment now?"
